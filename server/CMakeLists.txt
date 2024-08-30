@@ -11,7 +11,7 @@ target_include_directories(server PUBLIC
 )
 
 # Link against networking
-target_link_libraries(server networking engine raylib winmm)
+target_link_libraries(server networking engine raylib)
 
 # For Windows, link against additional libraries if necessary
 if (WIN32)
