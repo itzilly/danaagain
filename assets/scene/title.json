@@ -2,7 +2,7 @@
     "entities": [
         {
             "type": "TextEntity",
-            "text": "Hello, World!",
+            "text": "Dana is a big nerd",
             "position": {
                 "x": 0,
                 "y": 0
