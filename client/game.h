@@ -170,11 +170,10 @@ private:
     std::string text;
     EVec position;
     Color color;
-    int fontSize;
 
 public:
-    TextEntity(const std::string& text, const EVec& position, const Color& color, const int& fontSize)
-        : text(text), position(position), color(color), fontSize(fontSize) {}
+    TextEntity(const std::string& text, const EVec& position, const Color& color)
+        : text(text), position(position), color(color){}
 
     void Update() override;
 
