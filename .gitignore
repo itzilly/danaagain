@@ -1,0 +1,22 @@
+# Ignore Build Directories
+build/
+build-vs/
+build-ninja/
+
+# IDE Generated Files
+.atom/
+.vscode/
+.jb/
+.idea/
+cmake-build-debug/
+
+# Editor Specific Files
+compile_commands.json
+
+# Util Scripts
+venv/
+typer.py
+
+# Cache Files
+.cache/
+
